@@ -17,11 +17,3 @@ $container['logger'] = function ($c) {
     $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['path'], $settings['level']));
     return $logger;
 };
-
-// lessql
-$container['db'] = function ($c) {
-    $settings = $c->get('settings')['database'];
-    $pdo = new \PDO( 'mysql:host='.$settings['host'].';dbname='.$settings['name_db'], $settings['user_db'], $settings['pass_db']);
-    $db = new \LessQL\Database( $pdo );
-    return $db;
-};

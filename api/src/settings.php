@@ -14,12 +14,6 @@ return [
             'name' => 'slim-app',
             'path' => __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
-        ],
-        'database' => [
-            'host' => '',
-            'user_db' => '',
-            'pass_db' => '',
-            'name_db' => ''
         ]
     ],
 ];

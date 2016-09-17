@@ -18,6 +18,9 @@ session_start();
 $settings = require __DIR__ . '/../src/settings.php';
 $app = new \Slim\App($settings);
 
+// Set up database
+require __DIR__ . '/../src/database.php';
+
 // Set up dependencies
 require __DIR__ . '/../src/dependencies.php';
 
