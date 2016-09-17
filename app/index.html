@@ -13,6 +13,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/signin.css">
     <!-- endbuild -->
   </head>
   <body ng-app="vecinosunidosApp">
@@ -45,8 +46,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Registro</a></li>
-              <li><a href="#">Ingresar</a></li>
+              <li><a href="#/registro">Registro</a></li>
+              <li><a href="#/ingresar">Ingresar</a></li>
             </ul>
 
           </div>
@@ -60,7 +61,7 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-heart"></span> United DevArs</p>
       </div>
       
     <!-- build:js(.) scripts/vendor.js -->
@@ -83,6 +84,12 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/ingresar.js"></script>
+        <script src="scripts/services/api.js"></script>
+        <script src="scripts/services/auth.js"></script>
+        <script src="scripts/services/barrio.js"></script>
+        <script src="scripts/controllers/registro.js"></script>
+        <script src="scripts/controllers/barrios.js"></script>
         <!-- endbuild -->
 </body>
 </html>
