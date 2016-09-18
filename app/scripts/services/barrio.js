@@ -17,17 +17,22 @@ angular.module('vecinosunidosApp')
       return api.get("barrios");
     }
 
-    //Obtiene todos los barrios
+    //Obtiene un barrio
+    barriosObj.getAll = function(){
+      return api.get("barrios");
+    }
+
+    //Crea un barrio
     barriosObj.create = function(data){
       return api.post("barrios", data);
     }
 
-    //Obtiene todos los barrios
+    //Actualiza un barrio
     barriosObj.update = function(id, data){
       return api.update("barrios/" + id, data);
     }
 
-    //Obtiene todos los barrios
+    //Elimina un barrio
     barriosObj.delete = function(id, data){
       return api.delete("barrios/" + id);
     }

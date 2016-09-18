@@ -7,6 +7,7 @@
 
 body {
   padding: 0;
+  margin-top: 10px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -61,9 +62,7 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+  
 
   /* Remove the padding we set earlier */
   .header,
@@ -80,4 +79,8 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
 }

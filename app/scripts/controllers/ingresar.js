@@ -8,6 +8,6 @@
  * Controller of the vecinosunidosApp
  */
 angular.module('vecinosunidosApp')
-  .controller('IngresarCtrl', function ($scope, barrios) {
-  	barrios.getAll();
+  .controller('IngresarCtrl', function ($scope, barrio) {
+  	barrio.getAll();
   });

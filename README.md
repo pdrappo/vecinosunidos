@@ -1,5 +1,7 @@
 # Vecinos Unidos
 
+![alt text](http://www.pablodrappo.com.ar/vecinosunidos/images/screenshot-pablodrappo.com.jpg "Captura de pantalla")
+
 ## Vecinos unidos es un proyecto que tiene la misión de unir el reclamo popular de un barrio y centrarlo en un medio común que genere debate y encuentre una solución comunitaria.
 
 Así como el presupuesto participativo de cada localidad cubre los intereses de quienes la habitan generando soluciones aceptadas por quienes participaron de las propuestas, VecinosUnidos pretende llevar tanto las propuestas como las problemáticas generadas por los mismos habitantes. De manera que en un único portal y de acceso público se propongan y sean evaluadas las necesidades de los ciudadanos.
@@ -44,4 +46,19 @@ para debatir presencialmente las problematicas y soluciones propuestas para llev
 ## Reglas generales:
 solo se pueden postular problemas y responder soluciones. Todo comentario politico o que no aporte a la solucion del problema sera eliminado por un moderador.
 
-[Unite!!](http://github.com/ "Unite")
+[Unite!!](http://www.pablodrappo.com.ar/vecinosunidos/ "Unite")
+
+
+## Caracteristicas
+* Interfaz web desarrollada en AngularJS
+* API de consumo de datos
+* Autentificación oAuth API
+* ACL de usuarios
+
+## Requerimientos de implementación
+
+* PHP 5.4+
+* MySQL 5
+* Composer
+* Bower
+* Grunt

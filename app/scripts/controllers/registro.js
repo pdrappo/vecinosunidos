@@ -8,10 +8,9 @@
  * Controller of the vecinosunidosApp
  */
 angular.module('vecinosunidosApp')
-  .controller('RegistroCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('RegistroCtrl', function ($scope, barrio) {
+  	barrio.getAll().then(
+  		function(response){
+  		$scope.barrios = response.data;
+  	});
   });

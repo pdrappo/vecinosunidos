@@ -46,6 +46,21 @@ angular
         controller: 'BarriosCtrl',
         controllerAs: 'barrios'
       })
+      .when('/portal', {
+        templateUrl: 'views/portal.html',
+        controller: 'PortalCtrl',
+        controllerAs: 'portal'
+      })
+      .when('/contacto', {
+        templateUrl: 'views/contacto.html',
+        controller: 'ContactoCtrl',
+        controllerAs: 'contacto'
+      })
+      .when('/usuario', {
+        templateUrl: 'views/usuario.html',
+        controller: 'UsuarioCtrl',
+        controllerAs: 'usuario'
+      })
       .otherwise({
         redirectTo: '/'
       });
